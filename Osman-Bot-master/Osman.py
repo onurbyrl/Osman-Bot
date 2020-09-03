@@ -16,8 +16,8 @@ class Instagram:
         time.sleep(2)
         print("Instagram web page opened...")
 
-        usernameInput = self.browser.find_element_by_xpath("//*[@id='react-root']/section/main/article/div[2]/div[1]/div/form/div[2]/div/label/input")
-        passwordInput = self.browser.find_element_by_xpath("//*[@id='react-root']/section/main/article/div[2]/div[1]/div/form/div[3]/div/label/input")
+        usernameInput = self.browser.find_element_by_css_selector("#loginForm > div > div:nth-child(1) > div > label > input")
+        passwordInput = self.browser.find_element_by_css_selector("#loginForm > div > div:nth-child(2) > div > label > input")
 
         usernameInput.send_keys(self.username)
         passwordInput.send_keys(self.password)
