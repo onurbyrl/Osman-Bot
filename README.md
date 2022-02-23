@@ -5,8 +5,6 @@ Osman is the instagram bot that get users who not following back you.
 I used Selenium. Very thanks to Selenium for these advantages.
 Also I wrote the codes compatible with Google Chrome ! 
 
-*Using cmd to use that program is recommended !!*
-
 Requirements:
     -Python 3.x
     -Selenium
